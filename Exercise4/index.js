@@ -10,12 +10,11 @@ const port = 4004;
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
-const buddyRoute = require('./router/ashok');
-const { response } = require('express');
+const buddyRoute = require('./router/route');
 app.use("/buddy",buddyRoute);
 
 app.use("/", (req,res,next) => {
-    response.send("this is error");
+    res.send("this is error");
 })
 
 app.listen(port, ()=>{
