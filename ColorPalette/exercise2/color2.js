@@ -5,25 +5,28 @@ let file = require("./color_ palette.json");
 http.createServer((req, res, err) => {
     if (req.url != "/favicon.ico") {
         let notes = [];
-        let vari = [];
         for (let i = 0; i < 5; i++) {
             notes.push(file[Math.floor(Math.random() * file.length)]);
         }
         let result = JSON.stringify(notes);
-        fs.writeFile("randomColor.json", result, (err) => {
-            if (err)
-                console.log(err);
-            else
-                fs.readFile("randomColor.json", "UTF-8", (err, data) => {
-                    if (err)
-                        console.log(err);
-                    else {
-                        res.write(data);
-                        res.end();
-                    }
-                });
-        });
-        
+        if (notes) {
+            res.end("Array is Empty");
+        }
+        else {
+            fs.writeFile("randomColor.json", result, (err) => {
+                if (err)
+                    console.log(err);
+                else
+                    fs.readFile("randomColor.json", "UTF-8", (err, data) => {
+                        if (err)
+                            console.log(err);
+                        else {
+                            res.write(data);
+                            res.end();
+                        }
+                    });
+            });
+        }
     }
 
-}).listen(4001);
+}).listen(4002);
