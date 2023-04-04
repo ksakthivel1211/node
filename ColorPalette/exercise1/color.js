@@ -1,6 +1,5 @@
 let fs = require('fs');
 let http = require('http');
-// console.log("Hi");
 let file = require("./color_ palette.json");
 
 http.createServer((req, res, err) => {
@@ -10,7 +9,6 @@ http.createServer((req, res, err) => {
         for (let i = 0; i < 5; i++) {
             notes.push(file[Math.floor(Math.random() * file.length)]);
         }
-        // console.log(notes);
         let result = JSON.stringify(notes);
         
         fs.writeFile("randomColor.json", result, (err) => {
