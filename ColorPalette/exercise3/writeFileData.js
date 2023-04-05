@@ -1,5 +1,6 @@
 let {writeFile} = require('fs');
 
+// file writing function 
 let writeFileData=function (result){
    return new Promise((resolve,reject)=>{
     writeFile("randomColor.json", result, (err) => {
@@ -10,7 +11,6 @@ let writeFileData=function (result){
         else{
             resolve("File created successfully..!!!");
         }
-            
     });
    })
 }
