@@ -1,9 +1,12 @@
 let fs = require('fs');
+const logger = require('./logger');
 
 const deleteBuddy = (req,res) => {
     fs.readFile('./cdw_ace23_buddies.json','UTF-8',(err,data) => {
-        if(err)
+        if(err){
+            logger.error(err)
             console.log(err);
+        }
         else{
             const body = req.body;
             const array = JSON.parse(data);
@@ -12,8 +15,10 @@ const deleteBuddy = (req,res) => {
             array.splice(position,1);
 
             fs.writeFile('./cdw_ace23_buddies.json',JSON.stringify(array),(err) => {
-                if(err)
+                if(err){
+                    logger.error(err)
                     console.log(err);
+                }
                 else{
                     res.send(array);
                 }
