@@ -1,6 +1,4 @@
-const logger = require('../logger');
 const {readJSONData, writeJSONData, returnResponse} = require('../utils/helper');
-const constants = require('../response');
 
 const addBuddyDetails = async (req, res) => {
     let responseData;
