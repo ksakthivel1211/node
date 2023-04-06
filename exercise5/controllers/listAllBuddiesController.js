@@ -1,17 +1,15 @@
 let fs = require('fs');
-const logger = require('./logger');
+const logger = require('../logger');
+const {listBuddy} = require('../services/listAllService');
 
-const listAllBuddy = (req,res) => {
-    fs.readFile('./cdw_ace23_buddies.json','UTF-8',(err,data) => {
-        if(err){
-            logger.error(err)
-            console.log(err);
-        }
-        else{
-            const array = JSON.parse(data);
-            res.send(array);
-        }
-    });
+const listAllBuddy = async (req, res) => {
+    // Logger info at end
+    fileLogger.info(`START:: Display All Buddies Controller. ${req.originalUrl} - ${req.method} - ${req.ip}`);
+    
+    const responseData = await listBuddy(req, res);
+
+    fileLogger.info(`END:: Display All Buddies Controller. ${req.originalUrl} - ${req.method} - ${req.ip}`);
+    res.status(responseData.code).send(responseData.message);
 }
 
 module.exports = listAllBuddy;

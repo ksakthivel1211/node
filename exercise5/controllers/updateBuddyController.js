@@ -1,5 +1,5 @@
 let fs = require('fs');
-const logger = require('./logger');
+const logger = require('../logger');
 
 const updateBuddy = (req,res) => {
     fs.readFile('./cdw_ace23_buddies.json','UTF-8',(err,data) => {

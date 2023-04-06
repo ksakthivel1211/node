@@ -1,13 +1,10 @@
-let http = require('http');
-let url = require('url');
 let fs = require('fs');
 const logger = require('./logger');
 require('dotenv').config();
 const cors = require('cors');
 let express = require('express');
 const app = express();
-
-const port = 4008;
+const {writeJSONData} = require('./utils/helper');
 
 app.use(express.urlencoded({extended:false}));
 app.use(express.json());
@@ -24,9 +21,9 @@ app.use("/", (req,res,next) => {
     res.send("this is error");
 })
 
-app.listen(port, ()=>{
-    console.log("Server started at ",port);
-    fs.writeFile('./cdw_ace23_buddies.json',JSON.stringify([]),(err)=>{
+app.listen(process.env.PORT, ()=>{
+    console.log("Server started at ",process.env.PORT);
+    writeJSONData('./cdw_ace23_buddies.json',[],(err)=>{
         if(err)
             logger.error(err);
         else
