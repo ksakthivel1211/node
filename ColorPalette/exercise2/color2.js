@@ -4,16 +4,23 @@ let file = require("./color_ palette.json");
 
 http.createServer((req, res, err) => {
     if (req.url != "/favicon.ico") {
+        if(file.length>5)
+        {
         let notes = [];
-        for (let i = 0; i < 5; i++) {
-            notes.push(file[Math.floor(Math.random() * file.length)]);
+
+        while (notes.length <= 5) {
+            let value = file[Math.floor(Math.random() * file.length)]
+            if (notes.indexOf(value) == -1) {
+                notes.push(value);
+            }
         }
         let result = JSON.stringify(notes);
-        if (notes) {
+
+        if (!notes) {
             res.end("Array is Empty");
         }
         else {
-            fs.writeFile("randomColor.json", result, (err) => {
+            fs.writeFile("./randomColor.json", result, (err) => {
                 if (err)
                     console.log(err);
                 else
@@ -27,6 +34,10 @@ http.createServer((req, res, err) => {
                     });
             });
         }
+    }
+    else{
+        res.end("Number of input is less than the requirement");
+    }
     }
 
 }).listen(4002);
