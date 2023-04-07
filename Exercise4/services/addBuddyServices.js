@@ -1,8 +1,8 @@
-const {readJSONData,writeJSONData} = require("../utils/helper");
-
+const {readJSONData,writeJSONData,returnResponse} = require("../utils/helper");
+const response = require('../response');
 // Add function
 async function addService(body) {
-
+    let responseObject;
     const buddiesData = await readJSONData("./cdw_ace23_buddies.json");
 
     let flag = buddiesData.some((buddy) => {
@@ -10,19 +10,20 @@ async function addService(body) {
     });
     
     if (flag) {
-        return "Employee Id exists already";
+        responseObject = returnResponse("Error",response.alreadyExists,403);
     } 
     else {
         buddiesData.push(body);
         try{
             await writeJSONData("./cdw_ace23_buddies.json",buddiesData);
-            return "Buddy added successfully";
+            responseObject = returnResponse("Success",response.writeSuccess,200);
         }
         catch(err)
         {
-            return "Unable to add buddy";
+            responseObject = returnResponse("Error",response.serverError,500);
         }
     }
+    return responseObject;
 }
 
 module.exports = {addService};

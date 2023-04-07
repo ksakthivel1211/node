@@ -10,8 +10,15 @@ const writeJSONData = async (url, buddiesData) => {
     return await fs.writeFile(url,JSON.stringify(buddiesData));
 }
 
+const returnResponse = (status, message, code) => {
+    const responseObject = {
+        status, message, code
+    }
+    return responseObject;
+}
+
 
 module.exports = {
-    readJSONData, writeJSONData
+    readJSONData, writeJSONData,returnResponse
 }
 

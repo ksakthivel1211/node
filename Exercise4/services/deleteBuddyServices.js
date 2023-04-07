@@ -1,25 +1,27 @@
-const {readJSONData,writeJSONData} = require("../utils/helper");
-
+const {readJSONData,writeJSONData,returnResponse} = require("../utils/helper");
+const response = require('../response');
 // Delete function
 async function deleteService(body) {
 
+    let responseObject;
     const buddiesData = await readJSONData('./cdw_ace23_buddies.json');
 
-    const finalData = buddiesData.filter(value => value.employeeId !== body.employeeId);
+    const finalData = buddiesData.filter(value => value.employeeId !== body);
 
     if(buddiesData.length == finalData.length) {
-        return "Employee Id not found";
+        responseObject = returnResponse("Error",response.noRecords,404);
     }
     else {
         try{
             await writeJSONData("./cdw_ace23_buddies.json",finalData);
-            return "Deleted successfully";
+            responseObject = returnResponse("Success",response.deleteSuccess,200);
         }
         catch(err)
         {
-            return "Unable to add delete";
+            responseObject = returnResponse("Error",response.serverError,500);
         }
     }
+    return responseObject
 }
 
 module.exports = {deleteService};

@@ -1,13 +1,13 @@
-const {readJSONData,writeJSONData} = require('../utils/helper');
-
+const {readJSONData,writeJSONData,returnResponse} = require("../utils/helper");
+const response = require('../response');
 // Update function
-async function updateService(body) {
-
+async function updateService(id,body) {
+    let responseObject;
     const buddiesData = await readJSONData('./cdw_ace23_buddies.json');
 
     let flag = false;
     const editedData = buddiesData.map((buddy) => {
-        if(buddy.employeeId === body.employeeId) {
+        if(buddy.employeeId === id) {
             flag = true;
             return body;
         }
@@ -16,16 +16,17 @@ async function updateService(body) {
     if(flag) {
         try{
             await writeJSONData("./cdw_ace23_buddies.json",editedData);
-            return "Buddy updated successfully";
+            responseObject = returnResponse("Success",response.updateSuccess,200);
         }
         catch(err)
         {
-            return "Unable updated buddy";
+            responseObject = returnResponse("Error",response.updateError,403);
         }
     }
     else {
-        return "Employee Id not found";
+        responseObject = returnResponse("Error",response.noRecords,404);
     }
+    return responseObject;
 }
 
 module.exports = {updateService};

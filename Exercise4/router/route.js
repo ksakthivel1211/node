@@ -11,9 +11,9 @@ const {updateBuddy} = require('../controllers/updateBuddyController');
 
 // Directing to controller
 router.post("/addBuddy", addBuddy);
-router.post("/deleteBuddy", deleteBuddy);
-router.post("/listAllBuddies", listAllBuddies);
-router.post("/listBuddy", listBuddy);
-router.post("/updateBuddy",updateBuddy);
+router.delete("/deleteBuddy/:employeeId", deleteBuddy);
+router.get("/listAllBuddies", listAllBuddies);
+router.get("/listBuddy/:employeeId", listBuddy);
+router.put("/updateBuddy/:employeeId",updateBuddy);
 
 module.exports = router;
