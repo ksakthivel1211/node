@@ -1,4 +1,4 @@
-const { listAllService } = require("../services/listAllBuddiesServices");
+const { listAllService } = require("../services/listBuddyServices");
 const response = require("../response");
 // Directing to services
 const listAllBuddies = async (req, res) => {
