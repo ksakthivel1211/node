@@ -10,14 +10,14 @@ async function listService(id) {
         return buddy.employeeId === id || buddy.realName === id;
     });
     if(responseData){
-        responseObject = returnResponse("Success",responseData,200);
+        responseObject = returnResponse(response.Success,responseData,200);
     }
     else{
-        responseObject = returnResponse("Error",response.noRecords,404);
+        responseObject = returnResponse(response.Error,response.noRecords,404);
     }
 }
 catch(err){
-    responseObject = returnResponse("Error",response.serverError,500);
+    responseObject = returnResponse(response.Error,response.serverError,500);
 }
     return responseObject;
 }
@@ -28,14 +28,14 @@ async function listAllService() {
     const buddiesData = await readJSONData('./cdw_ace23_buddies.json');
     if(buddiesData)
     {
-        responseObject = returnResponse("Success",buddiesData,200);
+        responseObject = returnResponse(response.Success,buddiesData,200);
     }
     else{
-        responseObject = returnResponse("Success",response.noRecords,404);
+        responseObject = returnResponse(response.Error,response.noRecords,404);
     }
 }
     catch(err){
-        responseObject = returnResponse("Error",response.serverError,500);
+        responseObject = returnResponse(response.Error,response.serverError,500);
     }
     return responseObject;
 }

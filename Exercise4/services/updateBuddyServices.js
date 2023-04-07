@@ -16,15 +16,15 @@ async function updateService(id,body) {
     if(flag) {
         try{
             await writeJSONData("./cdw_ace23_buddies.json",editedData);
-            responseObject = returnResponse("Success",response.updateSuccess,200);
+            responseObject = returnResponse(response.Success,response.updateSuccess,200);
         }
         catch(err)
         {
-            responseObject = returnResponse("Error",response.updateError,403);
+            responseObject = returnResponse(response.Error,response.updateError,403);
         }
     }
     else {
-        responseObject = returnResponse("Error",response.noRecords,404);
+        responseObject = returnResponse(response.Error,response.noRecords,404);
     }
     return responseObject;
 }

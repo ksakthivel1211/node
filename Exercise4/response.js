@@ -1,4 +1,6 @@
 const response = {
+    "Success" : "SUCCESS",
+    "Error" : "ERROR",
     "readError" : "unable to read",
     "writeError" : "unable to write",
     "getSuccess" : "Fetch successful.",

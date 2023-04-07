@@ -10,17 +10,17 @@ async function addService(body) {
     });
     
     if (flag) {
-        responseObject = returnResponse("Error",response.alreadyExists,403);
+        responseObject = returnResponse(response.Error,response.alreadyExists,403);
     } 
     else {
         buddiesData.push(body);
         try{
             await writeJSONData("./cdw_ace23_buddies.json",buddiesData);
-            responseObject = returnResponse("Success",response.writeSuccess,200);
+            responseObject = returnResponse(response.Success,response.writeSuccess,200);
         }
         catch(err)
         {
-            responseObject = returnResponse("Error",response.serverError,500);
+            responseObject = returnResponse(response.Error,response.serverError,500);
         }
     }
     return responseObject;

@@ -9,16 +9,16 @@ async function deleteService(body) {
     const finalData = buddiesData.filter(value => value.employeeId !== body);
 
     if(buddiesData.length == finalData.length) {
-        responseObject = returnResponse("Error",response.noRecords,404);
+        responseObject = returnResponse(response.Error,response.noRecords,404);
     }
     else {
         try{
             await writeJSONData("./cdw_ace23_buddies.json",finalData);
-            responseObject = returnResponse("Success",response.deleteSuccess,200);
+            responseObject = returnResponse(response.Success,response.deleteSuccess,200);
         }
         catch(err)
         {
-            responseObject = returnResponse("Error",response.serverError,500);
+            responseObject = returnResponse(response.Error,response.serverError,500);
         }
     }
     return responseObject
