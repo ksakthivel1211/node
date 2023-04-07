@@ -1,4 +1,5 @@
 const {readJSONData, writeJSONData, returnResponse} = require('../utils/helper');
+const response = require('../response');
 
 const addBuddyDetails = async (req, res) => {
     let responseData;
@@ -13,7 +14,7 @@ const addBuddyDetails = async (req, res) => {
         if (flag) {
             responseData = returnResponse(
                 "ERROR",
-                constants.alreadyExists,
+                response.alreadyExists,
                 403
             );
             logger.warn(`Id exists already. ${req.originalUrl} - ${req.method} - ${req.ip}`)
@@ -23,7 +24,7 @@ const addBuddyDetails = async (req, res) => {
             await writeJSONData("./cdw_ace23_buddies.json",buddiesData);
             responseData = returnResponse(
                 "SUCCESS",
-                constants.writeSuccess,
+                response.writeSuccess,
                 200
             );
         }
@@ -31,7 +32,7 @@ const addBuddyDetails = async (req, res) => {
         logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
         responseData = returnResponse(
             "ERROR",
-            constants.serverError,
+            response.serverError,
             500
         );
     }

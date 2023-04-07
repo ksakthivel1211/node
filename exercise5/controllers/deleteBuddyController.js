@@ -1,30 +1,11 @@
-let fs = require('fs');
 const logger = require('../logger');
+const {deleteBuddyService} = require('../services/deleteService');
 
-const deleteBuddy = (req,res) => {
-    fs.readFile('./cdw_ace23_buddies.json','UTF-8',(err,data) => {
-        if(err){
-            logger.error(err)
-            console.log(err);
-        }
-        else{
-            const body = req.body;
-            const array = JSON.parse(data);
+const deleteBuddyDetails = async (req, res) => {
+    
+    const responseData = await deleteBuddyService(req, res);
 
-            let position = array.findIndex(element => element.employeeId === body.employeeId);
-            array.splice(position,1);
-
-            fs.writeFile('./cdw_ace23_buddies.json',JSON.stringify(array),(err) => {
-                if(err){
-                    logger.error(err)
-                    console.log(err);
-                }
-                else{
-                    res.send(array);
-                }
-            });
-        }
-    });
+    res.status(responseData.code).send(responseData.message);
 }
 
-module.exports = deleteBuddy;
+module.exports = deleteBuddyDetails;

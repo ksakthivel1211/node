@@ -1,5 +1,5 @@
 
-const { fileLogger } = require('../logger');
+const logger = require('../logger');
 const {addBuddyDetails} = require('../services/addService');
 
 const addBuddy = async (req, res) => {

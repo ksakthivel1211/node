@@ -7,6 +7,7 @@ const response = {
     "deleteSuccess" : "Element deleted successfully.",
     "writeSuccess" : "Write successful",
     "alreadyExists" : "data already exists.",
-    "updateSuccess" : "Update successful."
+    "updateSuccess" : "Update successful.",
+    "invalidInput": "Invalid Input"
 }
 module.exports = response;

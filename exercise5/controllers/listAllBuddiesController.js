@@ -1,15 +1,16 @@
-let fs = require('fs');
 const logger = require('../logger');
-const {listBuddy} = require('../services/listAllService');
+const {returnResponse}  = require('../utils/helper');
+const listService = require('../services/listAllService');
 
-const listAllBuddy = async (req, res) => {
+const listAllBuddies = async (req, res) => {
     // Logger info at end
     fileLogger.info(`START:: Display All Buddies Controller. ${req.originalUrl} - ${req.method} - ${req.ip}`);
     
-    const responseData = await listBuddy(req, res);
+    const responseData = await listService.displayAllBuddies(req, res);
 
     fileLogger.info(`END:: Display All Buddies Controller. ${req.originalUrl} - ${req.method} - ${req.ip}`);
     res.status(responseData.code).send(responseData.message);
 }
 
-module.exports = listAllBuddy;
+
+module.exports = listAllBuddies;
