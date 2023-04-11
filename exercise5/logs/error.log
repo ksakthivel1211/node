@@ -1,1 +1,328 @@
 error: Apr-07-2023 11:02:16: 	500 - undefined - ENOENT: no such file or directory, open './assets/cdw_ace23_buddies.json' - /buddy/deleteBuddy - POST - ::1
+error: Apr-10-2023 14:12:55: 	invalid operation
+error: Apr-10-2023 14:17:30: 	invalid operation
+error: Apr-10-2023 14:18:21: 	invalid operation
+error: Apr-10-2023 14:24:29: 	invalid operation
+info: Apr-10-2023 14:25:20: 	START:: listing All Buddies.
+info: Apr-10-2023 14:25:20: 	END:: listing All Buddies
+info: Apr-10-2023 14:27:23: 	START:: listing All Buddies.
+info: Apr-10-2023 14:27:23: 	END:: listing All Buddies
+info: Apr-10-2023 14:30:14: 	START:: listing All Buddies.
+info: Apr-10-2023 14:30:14: 	END:: listing All Buddies
+info: Apr-10-2023 14:35:30: 	SUCCESS
+info: Apr-10-2023 14:35:34: 	START:: listing All Buddies.
+info: Apr-10-2023 14:35:34: 	END:: listing All Buddies
+info: Apr-10-2023 14:35:34: 	SUCCESS
+info: Apr-10-2023 14:41:05: 	SUCCESS
+info: Apr-10-2023 14:41:15: 	START:: listing All Buddies.
+info: Apr-10-2023 14:41:15: 	END:: listing All Buddies
+info: Apr-10-2023 14:41:15: 	SUCCESS
+warn: Apr-10-2023 14:44:16: 	Id exists already. /buddy/addBuddy - POST - ::1
+info: Apr-10-2023 14:44:16: 	ERROR
+info: Apr-10-2023 14:44:22: 	START:: listing All Buddies.
+info: Apr-10-2023 14:44:22: 	END:: listing All Buddies
+info: Apr-10-2023 14:44:22: 	SUCCESS
+info: Apr-10-2023 14:48:49: 	START:: listing All Buddies.
+info: Apr-10-2023 14:48:49: 	END:: listing All Buddies
+info: Apr-10-2023 14:48:49: 	SUCCESS
+info: Apr-10-2023 14:49:09: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+error: Apr-10-2023 14:49:09: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:49:09: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:49:09: 	ERROR
+info: Apr-10-2023 14:49:55: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+error: Apr-10-2023 14:49:55: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:49:55: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:49:55: 	ERROR
+info: Apr-10-2023 14:50:19: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+error: Apr-10-2023 14:50:19: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:50:19: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:50:19: 	ERROR
+info: Apr-10-2023 14:51:52: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+error: Apr-10-2023 14:51:52: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:51:52: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:51:52: 	ERROR
+info: Apr-10-2023 14:52:08: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+error: Apr-10-2023 14:52:08: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:52:08: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:52:08: 	ERROR
+info: Apr-10-2023 14:52:34: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+error: Apr-10-2023 14:52:34: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:52:34: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:52:34: 	ERROR
+info: Apr-10-2023 14:53:03: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+error: Apr-10-2023 14:53:03: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:53:03: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:53:03: 	ERROR
+info: Apr-10-2023 14:54:18: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+error: Apr-10-2023 14:54:18: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:54:18: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:54:18: 	ERROR
+info: Apr-10-2023 14:54:25: 	START:: Display Buddies Services. /buddy/listBuddy/10 - GET - ::1
+error: Apr-10-2023 14:54:25: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/10 - GET - ::1
+info: Apr-10-2023 14:54:25: 	END:: Display All Buddies Services. /buddy/listBuddy/10 - GET - ::1
+info: Apr-10-2023 14:54:25: 	ERROR
+info: Apr-10-2023 14:54:36: 	START:: Display Buddies Services. /buddy/listBuddy/10 - GET - ::1
+error: Apr-10-2023 14:54:36: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/10 - GET - ::1
+info: Apr-10-2023 14:54:36: 	END:: Display All Buddies Services. /buddy/listBuddy/10 - GET - ::1
+info: Apr-10-2023 14:54:36: 	ERROR
+info: Apr-10-2023 14:54:45: 	START:: Display Buddies Services. /buddy/listBuddy/10 - GET - ::1
+error: Apr-10-2023 14:54:45: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/10 - GET - ::1
+info: Apr-10-2023 14:54:45: 	END:: Display All Buddies Services. /buddy/listBuddy/10 - GET - ::1
+info: Apr-10-2023 14:54:45: 	ERROR
+info: Apr-10-2023 14:54:51: 	START:: Display Buddies Services. /buddy/listBuddy/10 - GET - ::1
+error: Apr-10-2023 14:54:51: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/10 - GET - ::1
+info: Apr-10-2023 14:54:51: 	END:: Display All Buddies Services. /buddy/listBuddy/10 - GET - ::1
+info: Apr-10-2023 14:54:51: 	ERROR
+info: Apr-10-2023 14:55:04: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+error: Apr-10-2023 14:55:04: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:55:04: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:55:04: 	ERROR
+info: Apr-10-2023 14:55:19: 	START:: Display Buddies Services. /buddy/listBuddy/10 - GET - ::1
+error: Apr-10-2023 14:55:19: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/10 - GET - ::1
+info: Apr-10-2023 14:55:19: 	END:: Display All Buddies Services. /buddy/listBuddy/10 - GET - ::1
+info: Apr-10-2023 14:55:19: 	ERROR
+info: Apr-10-2023 14:57:48: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+error: Apr-10-2023 14:57:48: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:57:48: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:57:48: 	ERROR
+info: Apr-10-2023 14:59:03: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+error: Apr-10-2023 14:59:03: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:59:03: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:59:03: 	ERROR
+info: Apr-10-2023 14:59:53: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+error: Apr-10-2023 14:59:53: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:59:53: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 14:59:53: 	ERROR
+info: Apr-10-2023 15:00:15: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+error: Apr-10-2023 15:00:15: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 15:00:15: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 15:00:15: 	ERROR
+info: Apr-10-2023 15:00:16: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+error: Apr-10-2023 15:00:16: 	500 - undefined - Assignment to constant variable. - /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 15:00:16: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 15:00:16: 	ERROR
+info: Apr-10-2023 15:01:31: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 15:01:31: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 15:01:31: 	ERROR
+info: Apr-10-2023 15:01:55: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 15:01:55: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 15:01:55: 	ERROR
+info: Apr-10-2023 15:02:21: 	START:: Display Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 15:02:21: 	END:: Display All Buddies Services. /buddy/listBuddy/1 - GET - ::1
+info: Apr-10-2023 15:02:21: 	SUCCESS
+info: Apr-10-2023 15:02:35: 	ERROR
+info: Apr-10-2023 15:05:38: 	ERROR
+info: Apr-10-2023 15:06:24: 	SUCCESS
+info: Apr-10-2023 15:06:30: 	SUCCESS
+error: Apr-10-2023 15:06:43: 	invalid operation
+error: Apr-10-2023 15:10:01: 	invalid operation
+error: Apr-10-2023 15:15:58: 	invalid operation
+error: Apr-10-2023 15:17:30: 	invalid operation
+info: Apr-10-2023 15:18:35: 	START:: Edit Buddy Details Services. /buddy/updateBuddy/1 - PUT - ::1
+info: Apr-10-2023 15:18:35: 	ERROR
+error: Apr-10-2023 15:19:03: 	invalid operation
+info: Apr-10-2023 15:19:22: 	START:: Display Buddies Services. /buddy/1 - GET - ::1
+info: Apr-10-2023 15:19:22: 	END:: Display All Buddies Services. /buddy/1 - GET - ::1
+info: Apr-10-2023 15:19:22: 	SUCCESS
+info: Apr-10-2023 15:19:28: 	START:: listing All Buddies.
+info: Apr-10-2023 15:19:28: 	END:: listing All Buddies
+info: Apr-10-2023 15:19:28: 	SUCCESS
+info: Apr-10-2023 15:19:33: 	SUCCESS
+info: Apr-10-2023 15:19:50: 	SUCCESS
+info: Apr-10-2023 15:19:53: 	START:: Edit Buddy Details Services. /buddy/1 - PUT - ::1
+info: Apr-10-2023 15:19:53: 	ERROR
+info: Apr-10-2023 15:20:03: 	START:: listing All Buddies.
+info: Apr-10-2023 15:20:03: 	END:: listing All Buddies
+info: Apr-10-2023 15:20:03: 	SUCCESS
+info: Apr-10-2023 15:20:17: 	SUCCESS
+info: Apr-10-2023 15:20:25: 	SUCCESS
+info: Apr-10-2023 15:20:28: 	START:: listing All Buddies.
+info: Apr-10-2023 15:20:28: 	END:: listing All Buddies
+info: Apr-10-2023 15:20:28: 	SUCCESS
+info: Apr-10-2023 15:22:15: 	START:: Edit Buddy Details Services. /buddy/1 - PUT - ::1
+info: Apr-10-2023 15:22:15: 	SUCCESS
+error: Apr-11-2023 12:14:57: 	invalid operation
+error: Apr-11-2023 12:14:57: 	invalid operation
+error: Apr-11-2023 12:14:58: 	invalid operation
+error: Apr-11-2023 12:14:58: 	invalid operation
+error: Apr-11-2023 12:15:02: 	invalid operation
+error: Apr-11-2023 12:15:02: 	invalid operation
+error: Apr-11-2023 12:15:02: 	invalid operation
+error: Apr-11-2023 12:15:09: 	invalid operation
+error: Apr-11-2023 12:15:10: 	invalid operation
+error: Apr-11-2023 12:15:11: 	invalid operation
+error: Apr-11-2023 12:15:11: 	invalid operation
+error: Apr-11-2023 12:15:11: 	invalid operation
+error: Apr-11-2023 12:15:11: 	invalid operation
+error: Apr-11-2023 12:15:11: 	invalid operation
+error: Apr-11-2023 12:15:12: 	invalid operation
+error: Apr-11-2023 12:15:12: 	invalid operation
+error: Apr-11-2023 12:15:12: 	invalid operation
+error: Apr-11-2023 12:15:13: 	invalid operation
+error: Apr-11-2023 12:15:13: 	invalid operation
+error: Apr-11-2023 12:15:14: 	invalid operation
+error: Apr-11-2023 12:15:14: 	invalid operation
+error: Apr-11-2023 12:15:14: 	invalid operation
+error: Apr-11-2023 12:15:14: 	invalid operation
+error: Apr-11-2023 12:15:14: 	invalid operation
+error: Apr-11-2023 12:15:15: 	invalid operation
+error: Apr-11-2023 12:15:15: 	invalid operation
+error: Apr-11-2023 12:15:15: 	invalid operation
+error: Apr-11-2023 12:15:15: 	invalid operation
+error: Apr-11-2023 12:15:15: 	invalid operation
+error: Apr-11-2023 12:15:16: 	invalid operation
+error: Apr-11-2023 12:15:16: 	invalid operation
+error: Apr-11-2023 12:15:16: 	invalid operation
+error: Apr-11-2023 12:15:16: 	invalid operation
+error: Apr-11-2023 12:15:16: 	invalid operation
+error: Apr-11-2023 12:15:17: 	invalid operation
+error: Apr-11-2023 12:15:17: 	invalid operation
+error: Apr-11-2023 12:15:17: 	invalid operation
+error: Apr-11-2023 12:15:17: 	invalid operation
+error: Apr-11-2023 12:15:18: 	invalid operation
+error: Apr-11-2023 12:15:18: 	invalid operation
+error: Apr-11-2023 12:15:18: 	invalid operation
+error: Apr-11-2023 12:15:18: 	invalid operation
+error: Apr-11-2023 12:15:18: 	invalid operation
+error: Apr-11-2023 12:15:19: 	invalid operation
+error: Apr-11-2023 12:15:19: 	invalid operation
+error: Apr-11-2023 12:15:19: 	invalid operation
+error: Apr-11-2023 12:15:19: 	invalid operation
+error: Apr-11-2023 12:15:19: 	invalid operation
+error: Apr-11-2023 12:15:19: 	invalid operation
+error: Apr-11-2023 12:15:20: 	invalid operation
+error: Apr-11-2023 12:15:20: 	invalid operation
+error: Apr-11-2023 12:15:20: 	invalid operation
+error: Apr-11-2023 12:15:20: 	invalid operation
+error: Apr-11-2023 12:15:20: 	invalid operation
+error: Apr-11-2023 12:15:21: 	invalid operation
+error: Apr-11-2023 12:15:21: 	invalid operation
+error: Apr-11-2023 12:15:21: 	invalid operation
+error: Apr-11-2023 12:15:21: 	invalid operation
+error: Apr-11-2023 12:15:21: 	invalid operation
+error: Apr-11-2023 12:15:21: 	invalid operation
+error: Apr-11-2023 12:15:21: 	invalid operation
+error: Apr-11-2023 12:15:22: 	invalid operation
+error: Apr-11-2023 12:15:22: 	invalid operation
+error: Apr-11-2023 12:15:22: 	invalid operation
+error: Apr-11-2023 12:15:22: 	invalid operation
+error: Apr-11-2023 12:15:22: 	invalid operation
+error: Apr-11-2023 12:15:22: 	invalid operation
+error: Apr-11-2023 12:15:23: 	invalid operation
+error: Apr-11-2023 12:15:23: 	invalid operation
+error: Apr-11-2023 12:15:23: 	invalid operation
+error: Apr-11-2023 12:15:24: 	invalid operation
+error: Apr-11-2023 12:15:24: 	invalid operation
+error: Apr-11-2023 12:15:24: 	invalid operation
+error: Apr-11-2023 12:15:25: 	invalid operation
+error: Apr-11-2023 12:15:25: 	invalid operation
+error: Apr-11-2023 12:15:25: 	invalid operation
+error: Apr-11-2023 12:15:25: 	invalid operation
+error: Apr-11-2023 12:15:26: 	invalid operation
+error: Apr-11-2023 12:15:26: 	invalid operation
+error: Apr-11-2023 12:15:26: 	invalid operation
+error: Apr-11-2023 12:15:27: 	invalid operation
+error: Apr-11-2023 12:15:27: 	invalid operation
+error: Apr-11-2023 12:15:27: 	invalid operation
+error: Apr-11-2023 12:15:27: 	invalid operation
+error: Apr-11-2023 12:15:28: 	invalid operation
+error: Apr-11-2023 12:15:28: 	invalid operation
+error: Apr-11-2023 12:15:28: 	invalid operation
+error: Apr-11-2023 12:15:28: 	invalid operation
+error: Apr-11-2023 12:15:28: 	invalid operation
+error: Apr-11-2023 12:15:28: 	invalid operation
+error: Apr-11-2023 12:15:28: 	invalid operation
+error: Apr-11-2023 12:15:28: 	invalid operation
+error: Apr-11-2023 12:15:29: 	invalid operation
+error: Apr-11-2023 12:15:29: 	invalid operation
+error: Apr-11-2023 12:15:29: 	invalid operation
+error: Apr-11-2023 12:15:29: 	invalid operation
+error: Apr-11-2023 12:15:29: 	invalid operation
+error: Apr-11-2023 12:15:29: 	invalid operation
+error: Apr-11-2023 12:15:29: 	invalid operation
+error: Apr-11-2023 12:15:29: 	invalid operation
+error: Apr-11-2023 12:15:29: 	invalid operation
+error: Apr-11-2023 12:15:29: 	invalid operation
+error: Apr-11-2023 12:15:30: 	invalid operation
+error: Apr-11-2023 12:15:30: 	invalid operation
+error: Apr-11-2023 12:15:30: 	invalid operation
+error: Apr-11-2023 12:15:30: 	invalid operation
+error: Apr-11-2023 12:15:30: 	invalid operation
+error: Apr-11-2023 12:15:30: 	invalid operation
+error: Apr-11-2023 12:15:30: 	invalid operation
+error: Apr-11-2023 12:15:30: 	invalid operation
+error: Apr-11-2023 12:15:31: 	invalid operation
+error: Apr-11-2023 12:15:31: 	invalid operation
+error: Apr-11-2023 12:15:31: 	invalid operation
+error: Apr-11-2023 12:15:31: 	invalid operation
+error: Apr-11-2023 12:15:31: 	invalid operation
+error: Apr-11-2023 12:15:31: 	invalid operation
+error: Apr-11-2023 12:15:31: 	invalid operation
+error: Apr-11-2023 12:15:31: 	invalid operation
+error: Apr-11-2023 12:15:31: 	invalid operation
+error: Apr-11-2023 12:15:32: 	invalid operation
+error: Apr-11-2023 12:15:32: 	invalid operation
+error: Apr-11-2023 12:15:32: 	invalid operation
+error: Apr-11-2023 12:15:32: 	invalid operation
+error: Apr-11-2023 12:15:32: 	invalid operation
+error: Apr-11-2023 12:15:32: 	invalid operation
+error: Apr-11-2023 12:15:32: 	invalid operation
+error: Apr-11-2023 12:15:33: 	invalid operation
+error: Apr-11-2023 12:15:33: 	invalid operation
+error: Apr-11-2023 12:15:33: 	invalid operation
+error: Apr-11-2023 12:15:33: 	invalid operation
+error: Apr-11-2023 12:15:33: 	invalid operation
+error: Apr-11-2023 12:15:33: 	invalid operation
+error: Apr-11-2023 12:15:34: 	invalid operation
+error: Apr-11-2023 12:15:34: 	invalid operation
+error: Apr-11-2023 12:15:34: 	invalid operation
+error: Apr-11-2023 12:15:34: 	invalid operation
+error: Apr-11-2023 12:15:34: 	invalid operation
+error: Apr-11-2023 12:15:34: 	invalid operation
+error: Apr-11-2023 12:15:34: 	invalid operation
+error: Apr-11-2023 12:15:34: 	invalid operation
+error: Apr-11-2023 12:15:34: 	invalid operation
+error: Apr-11-2023 12:15:35: 	invalid operation
+error: Apr-11-2023 12:15:35: 	invalid operation
+error: Apr-11-2023 12:15:35: 	invalid operation
+error: Apr-11-2023 12:15:35: 	invalid operation
+error: Apr-11-2023 12:15:35: 	invalid operation
+error: Apr-11-2023 12:15:35: 	invalid operation
+error: Apr-11-2023 12:15:35: 	invalid operation
+error: Apr-11-2023 12:15:35: 	invalid operation
+error: Apr-11-2023 12:15:35: 	invalid operation
+error: Apr-11-2023 12:15:35: 	invalid operation
+error: Apr-11-2023 12:15:35: 	invalid operation
+error: Apr-11-2023 12:15:36: 	invalid operation
+error: Apr-11-2023 12:15:36: 	invalid operation
+error: Apr-11-2023 12:15:36: 	invalid operation
+error: Apr-11-2023 12:15:36: 	invalid operation
+error: Apr-11-2023 12:15:36: 	invalid operation
+error: Apr-11-2023 12:15:36: 	invalid operation
+error: Apr-11-2023 12:22:41: 	invalid operation
+error: Apr-11-2023 12:22:42: 	invalid operation
+error: Apr-11-2023 12:22:42: 	invalid operation
+error: Apr-11-2023 12:22:43: 	invalid operation
+error: Apr-11-2023 12:22:43: 	invalid operation
+error: Apr-11-2023 12:22:43: 	invalid operation
+error: Apr-11-2023 12:22:44: 	invalid operation
+error: Apr-11-2023 12:22:44: 	invalid operation
+error: Apr-11-2023 12:22:44: 	invalid operation
+error: Apr-11-2023 12:22:44: 	invalid operation
+error: Apr-11-2023 12:22:45: 	invalid operation
+error: Apr-11-2023 12:22:45: 	invalid operation
+error: Apr-11-2023 12:22:45: 	invalid operation
+error: Apr-11-2023 12:22:45: 	invalid operation
+error: Apr-11-2023 12:22:45: 	invalid operation
+error: Apr-11-2023 12:22:45: 	invalid operation
+error: Apr-11-2023 12:22:45: 	invalid operation
+error: Apr-11-2023 12:22:46: 	invalid operation
+error: Apr-11-2023 12:22:46: 	invalid operation
+error: Apr-11-2023 12:22:46: 	invalid operation
+error: Apr-11-2023 12:22:46: 	invalid operation
+error: Apr-11-2023 12:22:46: 	invalid operation
+error: Apr-11-2023 12:22:46: 	invalid operation
+error: Apr-11-2023 12:22:46: 	invalid operation
+error: Apr-11-2023 12:22:47: 	invalid operation
+error: Apr-11-2023 12:22:47: 	invalid operation
+error: Apr-11-2023 12:22:48: 	invalid operation

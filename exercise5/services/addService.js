@@ -1,7 +1,8 @@
 const {readJSONData, writeJSONData, returnResponse} = require('../utils/helper');
 const response = require('../response');
-
+const logger = require('../logger');
 const addBuddyDetails = async (req, res) => {
+    logger.info(`START:: Add Buddy service`);
     let responseData;
     try {
         const buddiesData = await readJSONData("./cdw_ace23_buddies.json");
@@ -36,6 +37,7 @@ const addBuddyDetails = async (req, res) => {
             500
         );
     }
+    logger.info(`END :: Add Buddy service`);
     return responseData;
 };
 

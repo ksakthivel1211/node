@@ -3,7 +3,7 @@ const {readJSONData, writeJSONData, returnResponse} = require('../utils/helper')
 const response = require('../response');
 
 const updateBuddyinfo = async (req, res) => {
-    logger.info(`START:: Edit Buddy Details Services. ${req.originalUrl} - ${req.method} - ${req.ip}`);
+    logger.info(`START:: Edit Buddy Services`);
     let responseData;
     try {
         const buddiesData = await readJSONData('./cdw_ace23_buddies.json');
@@ -11,7 +11,7 @@ const updateBuddyinfo = async (req, res) => {
         const body = req.body;
         let flag = false;
         const editedData = buddiesData.map((buddy) => {
-            if(buddy.employeeId === body.employeeId) {
+            if(buddy.employeeId === req.params.id) {
                 flag = true;
                 return body;
             }
@@ -41,6 +41,7 @@ const updateBuddyinfo = async (req, res) => {
             500
         );
     }
+    logger.info(`END :: Edit Buddy Services`);
     return responseData;
 }
 

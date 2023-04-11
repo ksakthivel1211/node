@@ -3,13 +3,14 @@ const {readJSONData, writeJSONData, returnResponse} = require('../utils/helper')
 const response = require('../response');
 
 const deleteBuddyService = async (req, res) => {
+    logger.info(`START:: Delete Buddy service`);
     let responseData;
-
     try {
         const buddiesData = await readJSONData('./cdw_ace23_buddies.json');
-        const body = req.body;
     
-        const newArray = buddiesData.filter(value => value.employeeId !== body.employeeId);
+        const newArray = buddiesData.filter(value => value.employeeId !== req.params.id);
+        console.log(newArray);
+
         if(buddiesData.length == newArray.length) {
             responseData = returnResponse(
                 "ERROR",
@@ -33,6 +34,7 @@ const deleteBuddyService = async (req, res) => {
             500
         );
     }
+    logger.info(`END:: Delete Buddy service`);
     return responseData;
 }
 

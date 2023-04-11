@@ -1,3 +1,4 @@
+
 let fs = require('fs');
 const logger = require('./logger');
 require('dotenv').config();
@@ -23,10 +24,13 @@ app.use("/", (req,res,next) => {
 
 app.listen(process.env.PORT, ()=>{
     console.log("Server started at ",process.env.PORT);
-    writeJSONData('./cdw_ace23_buddies.json',[],(err)=>{
-        if(err)
-            logger.error(err);
-        else
-            logger.error("created");
-    });
+
+    if(!fs.existsSync('./cdw_ace23_buddies.json')){
+        writeJSONData('./cdw_ace23_buddies.json',[],(err)=>{
+            if(err)
+                logger.error(err);
+            else
+                logger.error("created");
+        });
+    }
 })

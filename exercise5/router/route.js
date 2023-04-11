@@ -8,14 +8,14 @@ const listAllBuddies = require('../controllers/listAllBuddiesController');
 const listBuddy = require('../controllers/listBuddyController');
 const updateBuddy = require('../controllers/updateBuddyController');
 
-router.post("/addBuddy", buddyAdd);
+router.post("/", buddyAdd);
 
-router.post("/deleteBuddy", deleteBuddy);
+router.delete("/:id", deleteBuddy);
 
-router.post("/listAllBuddy", listAllBuddies);
+router.get("/", listAllBuddies);
 
-router.post("/listBuddy", listBuddy);
+router.get("/:id", listBuddy);
 
-router.post("/updateBuddy",updateBuddy);
+router.put("/:id",updateBuddy);
 
 module.exports = router;
