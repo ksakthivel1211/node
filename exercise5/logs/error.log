@@ -394,3 +394,177 @@ warn: Apr-11-2023 20:45:46: 	Id exists already. /buddy/ - POST - ::1
 info: Apr-11-2023 20:45:46: 	END :: Add Buddy service
 info: Apr-11-2023 20:45:46: 	ERROR
 info: Apr-11-2023 20:45:46: 	END :: Add Buddy controller
+info: Apr-12-2023 15:25:31: 	START :: Add Buddy controller
+info: Apr-12-2023 15:25:31: 	START:: Add Buddy service
+warn: Apr-12-2023 15:25:31: 	Id exists already. /buddy/ - POST - ::1
+info: Apr-12-2023 15:25:31: 	END :: Add Buddy service
+info: Apr-12-2023 15:25:31: 	ERROR
+info: Apr-12-2023 15:25:31: 	END :: Add Buddy controller
+info: Apr-12-2023 15:25:43: 	START :: List all Buddy controller
+info: Apr-12-2023 15:25:43: 	START:: listing All Buddies service
+info: Apr-12-2023 15:25:43: 	END:: listing All Buddies service
+info: Apr-12-2023 15:25:43: 	SUCCESS
+info: Apr-12-2023 15:25:43: 	END :: List all Buddy controller
+info: Apr-12-2023 15:51:10: 	START :: Add Buddy controller
+info: Apr-12-2023 15:51:10: 	START:: Add Buddy service
+warn: Apr-12-2023 15:51:10: 	Id exists already. /buddy/ - POST - ::1
+info: Apr-12-2023 15:51:10: 	END :: Add Buddy service
+info: Apr-12-2023 15:51:10: 	ERROR
+info: Apr-12-2023 15:51:10: 	END :: Add Buddy controller
+info: Apr-12-2023 15:51:32: 	START :: Add Buddy controller
+info: Apr-12-2023 15:51:32: 	START:: Add Buddy service
+info: Apr-12-2023 15:51:32: 	END :: Add Buddy service
+info: Apr-12-2023 15:51:32: 	SUCCESS
+info: Apr-12-2023 15:51:32: 	END :: Add Buddy controller
+info: Apr-12-2023 15:51:41: 	START :: List all Buddy controller
+info: Apr-12-2023 15:51:41: 	START:: listing All Buddies service
+info: Apr-12-2023 15:51:41: 	END:: listing All Buddies service
+info: Apr-12-2023 15:51:41: 	SUCCESS
+info: Apr-12-2023 15:51:41: 	END :: List all Buddy controller
+info: Apr-12-2023 15:52:50: 	START :: List all Buddy controller
+info: Apr-12-2023 15:52:50: 	START:: listing All Buddies service
+info: Apr-12-2023 15:52:50: 	END:: listing All Buddies service
+info: Apr-12-2023 15:52:50: 	SUCCESS
+info: Apr-12-2023 15:52:50: 	END :: List all Buddy controller
+info: Apr-12-2023 15:57:15: 	START :: Add Buddy controller
+info: Apr-12-2023 15:57:15: 	START:: Add Buddy service
+warn: Apr-12-2023 15:57:15: 	Id exists already. /buddy/ - POST - ::1
+info: Apr-12-2023 15:57:15: 	END :: Add Buddy service
+info: Apr-12-2023 15:57:15: 	ERROR
+info: Apr-12-2023 15:57:15: 	END :: Add Buddy controller
+info: Apr-12-2023 15:57:29: 	START :: Add Buddy controller
+info: Apr-12-2023 15:57:29: 	START:: Add Buddy service
+info: Apr-12-2023 15:57:29: 	END :: Add Buddy service
+info: Apr-12-2023 15:57:29: 	SUCCESS
+info: Apr-12-2023 15:57:29: 	END :: Add Buddy controller
+info: Apr-12-2023 15:57:36: 	START :: List all Buddy controller
+info: Apr-12-2023 15:57:36: 	START:: listing All Buddies service
+info: Apr-12-2023 15:57:36: 	END:: listing All Buddies service
+info: Apr-12-2023 15:57:36: 	SUCCESS
+info: Apr-12-2023 15:57:36: 	END :: List all Buddy controller
+info: Apr-12-2023 15:58:27: 	START :: List all Buddy controller
+info: Apr-12-2023 15:58:27: 	START:: listing All Buddies service
+info: Apr-12-2023 15:58:27: 	END:: listing All Buddies service
+info: Apr-12-2023 15:58:27: 	SUCCESS
+info: Apr-12-2023 15:58:27: 	END :: List all Buddy controller
+info: Apr-12-2023 15:58:41: 	START :: List all Buddy controller
+info: Apr-12-2023 15:58:41: 	START:: listing All Buddies service
+info: Apr-12-2023 15:58:41: 	END:: listing All Buddies service
+info: Apr-12-2023 15:58:41: 	SUCCESS
+info: Apr-12-2023 15:58:41: 	END :: List all Buddy controller
+info: Apr-12-2023 15:58:48: 	START :: List all Buddy controller
+info: Apr-12-2023 15:58:48: 	START:: listing All Buddies service
+info: Apr-12-2023 15:58:48: 	END:: listing All Buddies service
+info: Apr-12-2023 15:58:48: 	SUCCESS
+info: Apr-12-2023 15:58:48: 	END :: List all Buddy controller
+info: Apr-12-2023 16:04:16: 	START :: List all Buddy controller
+info: Apr-12-2023 16:04:16: 	START:: listing All Buddies service
+info: Apr-12-2023 16:04:16: 	END:: listing All Buddies service
+info: Apr-12-2023 16:04:16: 	SUCCESS
+info: Apr-12-2023 16:04:16: 	END :: List all Buddy controller
+info: Apr-12-2023 16:04:25: 	START :: List all Buddy controller
+info: Apr-12-2023 16:04:25: 	START:: listing All Buddies service
+info: Apr-12-2023 16:04:25: 	END:: listing All Buddies service
+info: Apr-12-2023 16:04:25: 	SUCCESS
+info: Apr-12-2023 16:04:25: 	END :: List all Buddy controller
+info: Apr-12-2023 16:05:00: 	START :: List Buddy controller
+info: Apr-12-2023 16:05:00: 	START:: List Buddy Service
+info: Apr-12-2023 16:05:00: 	END:: List Buddy service
+info: Apr-12-2023 16:05:00: 	ERROR
+info: Apr-12-2023 16:05:00: 	END :: List Buddy controller
+info: Apr-12-2023 16:05:33: 	START :: List Buddy controller
+info: Apr-12-2023 16:05:33: 	START:: List Buddy Service
+info: Apr-12-2023 16:05:33: 	END:: List Buddy service
+info: Apr-12-2023 16:05:33: 	ERROR
+info: Apr-12-2023 16:05:33: 	END :: List Buddy controller
+info: Apr-12-2023 16:06:49: 	START :: List Buddy controller
+info: Apr-12-2023 16:06:49: 	START:: List Buddy Service
+info: Apr-12-2023 16:06:49: 	END:: List Buddy service
+info: Apr-12-2023 16:06:49: 	SUCCESS
+info: Apr-12-2023 16:06:49: 	END :: List Buddy controller
+info: Apr-12-2023 16:07:07: 	START :: List Buddy controller
+info: Apr-12-2023 16:07:07: 	START:: List Buddy Service
+info: Apr-12-2023 16:07:07: 	END:: List Buddy service
+info: Apr-12-2023 16:07:07: 	SUCCESS
+info: Apr-12-2023 16:07:07: 	END :: List Buddy controller
+info: Apr-12-2023 16:11:36: 	START :: List all Buddy controller
+info: Apr-12-2023 16:11:36: 	START:: listing All Buddies service
+info: Apr-12-2023 16:11:36: 	END:: listing All Buddies service
+info: Apr-12-2023 16:11:36: 	SUCCESS
+info: Apr-12-2023 16:11:36: 	END :: List all Buddy controller
+info: Apr-12-2023 16:12:31: 	START :: List Buddy controller
+info: Apr-12-2023 16:12:31: 	START:: List Buddy Service
+info: Apr-12-2023 16:12:31: 	END:: List Buddy service
+info: Apr-12-2023 16:12:31: 	SUCCESS
+info: Apr-12-2023 16:12:31: 	END :: List Buddy controller
+info: Apr-12-2023 16:15:22: 	START :: Delete Buddy controller
+info: Apr-12-2023 16:15:22: 	START:: Delete Buddy service
+info: Apr-12-2023 16:15:22: 	END:: Delete Buddy service
+info: Apr-12-2023 16:15:22: 	SUCCESS
+info: Apr-12-2023 16:15:22: 	END :: Delete Buddy controller
+info: Apr-12-2023 16:15:40: 	START :: Update Buddy controller
+info: Apr-12-2023 16:15:40: 	START:: Edit Buddy Services
+info: Apr-12-2023 16:15:40: 	END :: Edit Buddy Services
+info: Apr-12-2023 16:15:40: 	ERROR
+info: Apr-12-2023 16:15:40: 	END :: update Buddy controller
+info: Apr-12-2023 16:17:10: 	START :: Update Buddy controller
+info: Apr-12-2023 16:17:10: 	START:: Edit Buddy Services
+info: Apr-12-2023 16:17:10: 	END :: Edit Buddy Services
+info: Apr-12-2023 16:17:10: 	ERROR
+info: Apr-12-2023 16:17:10: 	END :: update Buddy controller
+info: Apr-12-2023 16:18:53: 	START :: Update Buddy controller
+info: Apr-12-2023 16:18:53: 	START:: Edit Buddy Services
+info: Apr-12-2023 16:18:53: 	END :: Edit Buddy Services
+info: Apr-12-2023 16:18:53: 	SUCCESS
+info: Apr-12-2023 16:18:53: 	END :: update Buddy controller
+info: Apr-12-2023 16:39:08: 	START :: Add Buddy controller
+info: Apr-12-2023 16:39:08: 	START:: Add Buddy service
+warn: Apr-12-2023 16:39:08: 	Id exists already. /buddy/ - POST - ::1
+info: Apr-12-2023 16:39:08: 	END :: Add Buddy service
+info: Apr-12-2023 16:39:08: 	ERROR
+info: Apr-12-2023 16:39:08: 	END :: Add Buddy controller
+info: Apr-12-2023 16:39:13: 	START :: Delete Buddy controller
+info: Apr-12-2023 16:39:13: 	START:: Delete Buddy service
+info: Apr-12-2023 16:39:13: 	END:: Delete Buddy service
+info: Apr-12-2023 16:39:13: 	ERROR
+info: Apr-12-2023 16:39:13: 	END :: Delete Buddy controller
+info: Apr-12-2023 16:39:15: 	START :: List all Buddy controller
+info: Apr-12-2023 16:39:15: 	START:: listing All Buddies service
+info: Apr-12-2023 16:39:15: 	END:: listing All Buddies service
+info: Apr-12-2023 16:39:15: 	SUCCESS
+info: Apr-12-2023 16:39:15: 	END :: List all Buddy controller
+info: Apr-12-2023 16:39:18: 	START :: List Buddy controller
+info: Apr-12-2023 16:39:18: 	START:: List Buddy Service
+info: Apr-12-2023 16:39:18: 	END:: List Buddy service
+info: Apr-12-2023 16:39:18: 	SUCCESS
+info: Apr-12-2023 16:39:18: 	END :: List Buddy controller
+info: Apr-12-2023 16:39:24: 	START :: Delete Buddy controller
+info: Apr-12-2023 16:39:24: 	START:: Delete Buddy service
+info: Apr-12-2023 16:39:24: 	END:: Delete Buddy service
+info: Apr-12-2023 16:39:24: 	SUCCESS
+info: Apr-12-2023 16:39:24: 	END :: Delete Buddy controller
+info: Apr-12-2023 16:43:35: 	START :: Add Buddy controller
+info: Apr-12-2023 16:43:35: 	START:: Add Buddy service
+info: Apr-12-2023 16:43:35: 	END :: Add Buddy service
+info: Apr-12-2023 16:43:35: 	SUCCESS
+info: Apr-12-2023 16:43:35: 	END :: Add Buddy controller
+info: Apr-12-2023 16:43:54: 	START :: List all Buddy controller
+info: Apr-12-2023 16:43:54: 	START:: listing All Buddies service
+info: Apr-12-2023 16:43:54: 	END:: listing All Buddies service
+info: Apr-12-2023 16:43:54: 	SUCCESS
+info: Apr-12-2023 16:43:54: 	END :: List all Buddy controller
+info: Apr-12-2023 16:43:59: 	START :: Add Buddy controller
+info: Apr-12-2023 16:43:59: 	START:: Add Buddy service
+info: Apr-12-2023 16:43:59: 	END :: Add Buddy service
+info: Apr-12-2023 16:43:59: 	SUCCESS
+info: Apr-12-2023 16:43:59: 	END :: Add Buddy controller
+info: Apr-12-2023 16:44:02: 	START :: List Buddy controller
+info: Apr-12-2023 16:44:02: 	START:: List Buddy Service
+info: Apr-12-2023 16:44:02: 	END:: List Buddy service
+info: Apr-12-2023 16:44:02: 	SUCCESS
+info: Apr-12-2023 16:44:02: 	END :: List Buddy controller
+info: Apr-12-2023 16:44:05: 	START :: List all Buddy controller
+info: Apr-12-2023 16:44:05: 	START:: listing All Buddies service
+info: Apr-12-2023 16:44:05: 	END:: listing All Buddies service
+info: Apr-12-2023 16:44:05: 	SUCCESS
+info: Apr-12-2023 16:44:05: 	END :: List all Buddy controller

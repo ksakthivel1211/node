@@ -1,21 +1,13 @@
 const express = require('express');
 const router = express.Router();
-let fs = require('fs');
+const {buddyBodyValidation,buddyIdValidation} = require('../middleware/auth');
+const {addBuddy,listAllBuddies,listBuddy,deleteBuddyDetails,updateBuddy} = require('../controllers/buddyController');
 
-const buddyAdd = require('../controllers/addBuddyController');
-const deleteBuddy = require('../controllers/deleteBuddyController');
-const listAllBuddies = require('../controllers/listAllBuddiesController');
-const listBuddy = require('../controllers/listBuddyController');
-const updateBuddy = require('../controllers/updateBuddyController');
-
-router.post("/", buddyAdd);
-
-router.delete("/:id", deleteBuddy);
-
+// Directing to controller
+router.post("/",buddyBodyValidation ,addBuddy);
+router.delete("/deleteBuddyId",buddyIdValidation ,deleteBuddyDetails);
 router.get("/", listAllBuddies);
-
-router.get("/:id", listBuddy);
-
-router.put("/:id",updateBuddy);
+router.get("/getBuddyId",buddyIdValidation ,listBuddy);
+router.put("/updateId",buddyBodyValidation ,updateBuddy);
 
 module.exports = router;
