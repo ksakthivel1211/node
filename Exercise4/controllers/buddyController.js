@@ -8,7 +8,7 @@ const addBuddy = async (req, res) => {
     try{
       const bodyy = req.body;
       const addResponse = await addService(bodyy);
-      res.status(addResponse.code).send(addResponse.message);
+      res.status(addResponse.code).send(addResponse);
     }
     catch(error){
       res.status(500).send(response.serverError);
@@ -21,7 +21,7 @@ const updateBuddy = async (req, res) => {
     const id = req.params.employeeId;
     const body = req.body;
     const addResponse = await updateService(id,body);
-    res.status(addResponse.code).send(addResponse.message);
+    res.status(addResponse.code).send(addResponse);
   }
   catch(error)
   {
@@ -34,7 +34,7 @@ const deleteBuddy = async (req, res) => {
   try{
     const body = req.params.employeeId;
     const response = await deleteService(body);
-    res.status(response.code).send(response.message);
+    res.status(response.code).send(response);
   }
   catch(error)
   {
@@ -46,7 +46,7 @@ const deleteBuddy = async (req, res) => {
 const listAllBuddies = async (req, res) => {
   try{
       const addResponse = await listAllService();
-      res.status(addResponse.code).send(addResponse.message);
+      res.status(addResponse.code).send(addResponse);
     }
     catch(error)
     {
@@ -59,7 +59,7 @@ const listAllBuddies = async (req, res) => {
     try{
     const requestId = req.params.employeeId;
     const addResponse = await listService(requestId);
-    res.send(addResponse.message);
+    res.send(addResponse);
   }
   catch(error)
   {
