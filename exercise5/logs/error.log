@@ -326,3 +326,71 @@ error: Apr-11-2023 12:22:46: 	invalid operation
 error: Apr-11-2023 12:22:47: 	invalid operation
 error: Apr-11-2023 12:22:47: 	invalid operation
 error: Apr-11-2023 12:22:48: 	invalid operation
+info: Apr-11-2023 20:31:02: 	START :: Add Buddy controller
+info: Apr-11-2023 20:32:57: 	START :: Add Buddy controller
+info: Apr-11-2023 20:32:57: 	END :: Add Buddy controller
+info: Apr-11-2023 20:33:48: 	START :: Add Buddy controller
+info: Apr-11-2023 20:33:48: 	END :: Add Buddy controller
+info: Apr-11-2023 20:33:56: 	START :: Add Buddy controller
+info: Apr-11-2023 20:33:56: 	END :: Add Buddy controller
+info: Apr-11-2023 20:34:47: 	START :: Add Buddy controller
+info: Apr-11-2023 20:34:47: 	END :: Add Buddy controller
+info: Apr-11-2023 20:35:45: 	START :: Add Buddy controller
+info: Apr-11-2023 20:35:56: 	START :: Add Buddy controller
+info: Apr-11-2023 20:35:56: 	END :: Add Buddy controller
+info: Apr-11-2023 20:36:31: 	START :: Add Buddy controller
+info: Apr-11-2023 20:36:31: 	END :: Add Buddy controller
+info: Apr-11-2023 20:37:07: 	START :: Add Buddy controller
+info: Apr-11-2023 20:37:07: 	END :: Add Buddy controller
+info: Apr-11-2023 20:37:58: 	START :: List all Buddy controller
+info: Apr-11-2023 20:37:58: 	START:: listing All Buddies service
+info: Apr-11-2023 20:37:58: 	END:: listing All Buddies service
+info: Apr-11-2023 20:37:58: 	SUCCESS
+info: Apr-11-2023 20:37:58: 	END :: List all Buddy controller
+info: Apr-11-2023 20:38:25: 	START :: List Buddy controller
+info: Apr-11-2023 20:38:25: 	END :: List Buddy controller
+info: Apr-11-2023 20:38:25: 	START:: List Buddy Service
+info: Apr-11-2023 20:38:25: 	END:: List Buddy service
+info: Apr-11-2023 20:38:25: 	SUCCESS
+info: Apr-11-2023 20:38:42: 	START :: Update Buddy controller
+info: Apr-11-2023 20:39:33: 	START :: Update Buddy controller
+info: Apr-11-2023 20:39:33: 	END :: update Buddy controller
+info: Apr-11-2023 20:41:26: 	START :: Add Buddy controller
+info: Apr-11-2023 20:41:26: 	START:: Add Buddy service
+warn: Apr-11-2023 20:41:26: 	Id exists already. /buddy/ - POST - ::1
+info: Apr-11-2023 20:41:26: 	END :: Add Buddy service
+info: Apr-11-2023 20:41:26: 	ERROR
+info: Apr-11-2023 20:41:26: 	END :: Add Buddy controller
+info: Apr-11-2023 20:42:08: 	START :: Update Buddy controller
+info: Apr-11-2023 20:42:08: 	END :: update Buddy controller
+info: Apr-11-2023 20:42:23: 	START :: Update Buddy controller
+info: Apr-11-2023 20:42:23: 	END :: update Buddy controller
+info: Apr-11-2023 20:43:29: 	START :: Add Buddy controller
+info: Apr-11-2023 20:43:29: 	START:: Add Buddy service
+warn: Apr-11-2023 20:43:29: 	Id exists already. /buddy/ - POST - ::1
+info: Apr-11-2023 20:43:29: 	END :: Add Buddy service
+info: Apr-11-2023 20:43:29: 	ERROR
+info: Apr-11-2023 20:43:29: 	END :: Add Buddy controller
+info: Apr-11-2023 20:43:38: 	START :: Update Buddy controller
+info: Apr-11-2023 20:43:38: 	START:: Edit Buddy Services
+info: Apr-11-2023 20:43:38: 	END :: Edit Buddy Services
+info: Apr-11-2023 20:43:38: 	SUCCESS
+info: Apr-11-2023 20:43:38: 	END :: update Buddy controller
+info: Apr-11-2023 20:44:13: 	START :: Add Buddy controller
+info: Apr-11-2023 20:44:13: 	START:: Add Buddy service
+warn: Apr-11-2023 20:44:13: 	Id exists already. /buddy/ - POST - ::1
+info: Apr-11-2023 20:44:13: 	END :: Add Buddy service
+info: Apr-11-2023 20:44:13: 	ERROR
+info: Apr-11-2023 20:44:13: 	END :: Add Buddy controller
+info: Apr-11-2023 20:44:28: 	START :: Add Buddy controller
+info: Apr-11-2023 20:44:28: 	START:: Add Buddy service
+warn: Apr-11-2023 20:44:28: 	Id exists already. /buddy/ - POST - ::1
+info: Apr-11-2023 20:44:28: 	END :: Add Buddy service
+info: Apr-11-2023 20:44:28: 	ERROR
+info: Apr-11-2023 20:44:28: 	END :: Add Buddy controller
+info: Apr-11-2023 20:45:46: 	START :: Add Buddy controller
+info: Apr-11-2023 20:45:46: 	START:: Add Buddy service
+warn: Apr-11-2023 20:45:46: 	Id exists already. /buddy/ - POST - ::1
+info: Apr-11-2023 20:45:46: 	END :: Add Buddy service
+info: Apr-11-2023 20:45:46: 	ERROR
+info: Apr-11-2023 20:45:46: 	END :: Add Buddy controller
