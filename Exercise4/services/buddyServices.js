@@ -1,6 +1,7 @@
 const {readJSONData,writeJSONData,returnResponse} = require("../utils/helper");
 const response = require('../response');
-// Add function
+
+// Add service
 async function addService(body) {
     let responseObject;
     const buddiesData = await readJSONData("./cdw_ace23_buddies.json");
@@ -25,6 +26,8 @@ async function addService(body) {
     }
     return responseObject;
 }
+
+// Delete Service
 async function deleteService(body) {
 
     let responseObject;
@@ -47,6 +50,8 @@ async function deleteService(body) {
     }
     return responseObject
 }
+
+// List Service
 async function listService(id) {
 
     let responseObject;
@@ -68,6 +73,7 @@ catch(err){
     return responseObject;
 }
 
+// List All Service
 async function listAllService() {
     let responseObject;
     try{
@@ -86,6 +92,7 @@ async function listAllService() {
     return responseObject;
 }
 
+// Update Service
 async function updateService(id,body) {
     let responseObject;
     const buddiesData = await readJSONData('./cdw_ace23_buddies.json');

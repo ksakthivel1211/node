@@ -2,74 +2,69 @@ const {addService,deleteService,listAllService,listService,updateService} = requ
 const response = require('../response');
 
 // Directing to services
+
+// Add controller
 const addBuddy = async (req, res) => {
-    const bodyy = req.body;
-  console.log(req.body.employeeId);
-  console.log(req.body.nickName);
-  console.log(req.body.realName);
-  console.log(req.body.hobbies);
-  console.log(req.body.dob);
-
-    if( req.body.employeeId  &&  req.body.realName !== undefined  && req.body.realName !== null &&
-        req.body.nickName !== undefined  &&  req.body.nickName !== null  && (req.body.dob instanceof Date)  && req.body.hobbies !== undefined && req.body.hobbies !== null)
-        {
-        console.log("hi");
-        const addResponse = await addService(bodyy);
-        res.status(addResponse.code).send(addResponse.message);
+    try{
+      const bodyy = req.body;
+      const addResponse = await addService(bodyy);
+      res.status(addResponse.code).send(addResponse.message);
     }
-    else{
-        console.log("hipoo00ooooo");
-        console.log(response.noRecords);
-        res.send(response.noRecords);
+    catch(error){
+      res.status(500).send(response.serverError);
     }
-
 };
 
+// Update controller
 const updateBuddy = async (req, res) => {
-
+  try{
     const id = req.params.employeeId;
     const body = req.body;
-    if(body){
     const addResponse = await updateService(id,body);
     res.status(addResponse.code).send(addResponse.message);
-    }
-    else
-    {
-        res.send(response.noRecords);
-    }
-};
-
-const deleteBuddy = async (req, res) => {
-    const body = req.params.employeeId;
-
-  if (req.body !== undefined && req.body !== null && Number.isInteger(eq.body)) 
+  }
+  catch(error)
   {
-    const response = await deleteService(body);
-    res.status(response.code).send(response.message);
-  } 
-  else {
-    res.send(response.noRecords);
+    res.send(response.serverError);
   }
 };
 
+// Delete Controller
+const deleteBuddy = async (req, res) => {
+  try{
+    const body = req.params.employeeId;
+    const response = await deleteService(body);
+    res.status(response.code).send(response.message);
+  }
+  catch(error)
+  {
+    res.send(response.serverError);
+  }
+};
+
+// List All controller
 const listAllBuddies = async (req, res) => {
-    const body = req.body;
-    if(req.body !== undefined && req.body !== null)
-    {
+  try{
       const addResponse = await listAllService();
       res.status(addResponse.code).send(addResponse.message);
     }
-    else {
-      res.send(response.noRecords);
+    catch(error)
+    {
+      res.send(response.serverError);
     }
   };
 
+  // List controller
   const listBuddy = async (req, res) => {
-
+    try{
     const requestId = req.params.employeeId;
     const addResponse = await listService(requestId);
     res.send(addResponse.message);
-
+  }
+  catch(error)
+  {
+    res.send(response.serverError);
+  }
 };
 
 module.exports = {addBuddy,updateBuddy,listAllBuddies,listBuddy,deleteBuddy};
