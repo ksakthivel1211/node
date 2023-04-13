@@ -5,9 +5,9 @@ const {addBuddy,listAllBuddies,listBuddy,deleteBuddyDetails,updateBuddy} = requi
 
 // Directing to controller
 router.post("/",buddyBodyValidation ,addBuddy);
-router.delete("/deleteBuddyId",buddyIdValidation ,deleteBuddyDetails);
+router.delete("/deleteBuddy",buddyIdValidation ,deleteBuddyDetails);
 router.get("/", listAllBuddies);
-router.get("/getBuddyId",buddyIdValidation ,listBuddy);
+router.get("/getBuddy",buddyIdValidation ,listBuddy);
 router.put("/updateId",buddyBodyValidation ,updateBuddy);
 
 module.exports = router;

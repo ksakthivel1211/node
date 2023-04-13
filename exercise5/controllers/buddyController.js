@@ -1,6 +1,7 @@
-const logger = require('../utils/logger');
+const {returnResponse} = require('../constant/responseConstant');
 const {addBuddyDetails,listAllBuddiesService,listBuddyService,deleteBuddyService,updateBuddyService} = require('../services/buddyService');
 const response = require('../response');
+const logger = require('../utils/logger');
 
 // Start :: Controller
 
@@ -8,29 +9,78 @@ const response = require('../response');
 
 // Add detail service
 const addBuddy = async (req, res) => {
-
+    let responseData;
     logger.info(`START :: Add Buddy controller`);
-    const responseData = await addBuddyDetails(req, res);
+    try{
+    await addBuddyDetails(req, res);
+    responseData = returnResponse(
+        "SUCCESS",
+        response.writeSuccess,
+        200
+    );
+    }
+    catch(err)
+    {
+        logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+        responseData = returnResponse(
+            "ERROR",
+            response.serverError,
+            500
+        );
+    }
     logger.info(`${responseData.status}`);
-    res.send(responseData.message);
+    res.send(responseData);
     logger.info(`END :: Add Buddy controller`);
 
 };
 
 // Delete detail service
 const deleteBuddyDetails = async (req, res) => {
+    let responseData;
     logger.info(`START :: Delete Buddy controller`);
-    const responseData = await deleteBuddyService(req, res);
+    try{
+    responseData = await deleteBuddyService(req, res);
+    responseData = returnResponse(
+        "SUCCESS",
+        response.deleteSuccess,
+        200
+    );
+    }
+    catch(err)
+    {
+        logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+        responseData = returnResponse(
+            "ERROR",
+            response.serverError,
+            500
+        );
+    }
     logger.info(`${responseData.status}`);
-    res.status(responseData.code).send(responseData.message);
+    res.send(responseData);
     logger.info(`END :: Delete Buddy controller`);
 }
 
 // Listing all detail service
 const listAllBuddies = async (req, res) => {
-
+    let responseData;
     logger.info(`START :: List all Buddy controller`);
-    const responseData = await listAllBuddiesService(req, res);
+    try{
+    buddiesData = await listAllBuddiesService(req, res);
+    responseData = returnResponse(
+        "SUCCESS",
+        buddiesData,
+        200
+    );
+    }
+    catch(err)
+    {
+        logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+        responseData = returnResponse(
+            "ERROR",
+            response.noRecords,
+            404
+        );
+    }
     logger.info(`${responseData.status}`);
     res.status(responseData.code).send(responseData.message);
     logger.info(`END :: List all Buddy controller`);
@@ -38,8 +88,25 @@ const listAllBuddies = async (req, res) => {
 
 // Listing specific detail service
 const listBuddy = async(req,res) => {
-    logger.info(`START :: List Buddy controller`);              
-    const responseData = await listBuddyService(req, res);
+    let responseData
+    logger.info(`START :: List Buddy controller`);  
+    try{            
+    buddyData = await listBuddyService(req, res);
+    responseData = returnResponse(
+        "SUCCESS",
+        buddyData,
+        200
+    );
+    }
+    catch(err)
+    {
+        logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+        responseData = returnResponse(
+            "ERROR",
+            response.noRecords,
+            404
+        );
+    }
     logger.info(`${responseData.status}`);
     res.status(responseData.code).send(responseData.message);
     logger.info(`END :: List Buddy controller`);
@@ -47,9 +114,25 @@ const listBuddy = async(req,res) => {
 
 // Update detail service
 const updateBuddy = async (req,res) => {
-
+    let responseData;
     logger.info(`START :: Update Buddy controller`);
-    const responseData = await updateBuddyService(req, res);
+    try{
+        responseData = await updateBuddyService(req, res);
+        responseData = returnResponse(
+            "SUCCESS",
+            response.updateSuccess,
+            200
+        );
+    }
+    catch(err)
+    {
+        logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+        responseData = returnResponse(
+            "ERROR",
+            response.serverError,
+            500
+        );
+    }
     logger.info(`${responseData.status}`);
     res.status(responseData.code).send(responseData.message);
     logger.info(`END :: update Buddy controller`);
