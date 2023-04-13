@@ -1,6 +1,4 @@
 const {readJSONData, writeJSONData} = require('../utils/helper');
-const{returnResponse} = require('../constant/responseConstant');
-const response = require('../response');
 const logger = require('../utils/logger');
 
 // Start :: Services
